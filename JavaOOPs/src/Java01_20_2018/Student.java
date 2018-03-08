@@ -30,6 +30,10 @@ public class Student {
 	public void setFee(double fee) {
 		this.fee = fee;
 	}
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", institution=" + institution + ", id=" + id + ", fee=" + fee + "]";
+	}
 	
 	
 }
